@@ -5,9 +5,12 @@
 
 ## Concepts
 Components
-Passing data trhough props
-Making components interactive
-    Defined a custom function
-    Used it on the onclick attribute
-Adding state to a component
 
+Passing data trhough props
+
+Making components interactive
+-    Defined a custom function
+-    Used it on the onclick attribute
+
+Adding state to a component
+ 
