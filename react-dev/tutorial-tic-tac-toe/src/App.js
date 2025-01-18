@@ -1,3 +1,5 @@
+// @todo: Continue from Making an interactive component 
+// link: https://react.dev/learn/tutorial-tic-tac-toe#making-an-interactive-component
 function Square({value}) {
   // Curly braces {} are used to escape from jsx into js and execute js code. 
   return  <button className="square">{value}</button>;
