@@ -1,7 +1,13 @@
-function Square({value}) {
+// Import sate.
+import { useState } from 'react';
+
+function Square() {
+  // Add state to the component.
+  const [value, setValue] = useState(null);
 
   function handleClick() {
-    console.log('Clicked');
+    // Update value to X when component is clicked.
+    setValue('X');
   };
 
   // Curly braces {} are used to escape from jsx into js and execute js code. 
@@ -19,21 +25,21 @@ export default function Board() {
   <>
   <div className="board-row">
     {/* Custom components start with a capital letter */}
-   <Square value="1" />
-   <Square value="2" />
-   <Square value="3" />
+   <Square  />
+   <Square  />
+   <Square  />
   </div>
 
 <div className="board-row">
-   <Square value="4" />
-   <Square value="5" />
-   <Square value="6" />
+   <Square  />
+   <Square  />
+   <Square  />
 </div>
 
 <div className="board-row">
-   <Square value="7" />
-   <Square value="8" />
-   <Square value="9" />
+   <Square  />
+   <Square  />
+   <Square  />
 </div>
 
   </>
