@@ -1,5 +1,5 @@
 // @todo Continue from "Continue the game"
-// link https://react.dev/learn/tutorial-tic-tac-toe#completing-the-game
+// link https://react.dev/learn/tutorial-tic-tac-toe#taking-turns
 
 // Import sate.
 import { useState } from 'react';
