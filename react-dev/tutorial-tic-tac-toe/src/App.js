@@ -13,6 +13,7 @@ export default function Board() {
     const [squares, setSquares] = useState(Array(9).fill(null));
 
     function handleClick(i) {
+        // Check if there's already an X or O in the box and exit early if there is.
         if(squares[i]) {
             return
         }
